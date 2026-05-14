@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+## 👤 Author
+This project was developed and owned by **souror**.
+
+All rights reserved. Unauthorized copying or use is prohibited.
+>>>>>>> b31a219811ac5675054a6e0bc426f7b6e0c55032
 # Introducing myself
 Hello! I'm a beginner programmer, and this is my first complete project.  
 I built this Checkers game to practice Python, game logic, and basic AI development.
