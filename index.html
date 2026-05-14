@@ -4,52 +4,155 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Checker Game AI</title>
-  <meta name="description" content="Checker Game AI using minimax and alpha-beta pruning. Play and explore AI decision making in board games." />
-  <meta name="keywords" content="checkers, game AI, minimax, alpha-beta pruning, board game AI, python" />
+  <title>Checkers AI in Python | Minimax & Alpha-Beta Pruning</title>
 
-  <!-- SEO -->
+  <meta name="description" content="Checkers AI in Python using minimax and alpha-beta pruning. Explore how artificial intelligence plays board games with optimal decision making." />
+  <meta name="keywords" content="checkers AI, minimax python, alpha beta pruning, game AI, board game AI, python AI project" />
   <meta name="author" content="souror07">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Checkers AI in Python" />
+  <meta property="og:description" content="AI-powered checkers game using minimax and alpha-beta pruning." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://souror07.github.io/Checker-game-AI/" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareSourceCode",
+    "name": "Checkers AI in Python",
+    "description": "AI-powered checkers game using minimax and alpha-beta pruning.",
+    "programmingLanguage": "Python",
+    "url": "https://souror07.github.io/Checker-game-AI/"
+  }
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #fff;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.7rem;
+    }
+
+    h2 {
+      color: #38bdf8;
+      margin-top: 40px;
+    }
+
+    p {
+      color: #cbd5f5;
+      line-height: 1.6;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 22px;
+      margin-top: 20px;
+      background: #38bdf8;
+      color: #000;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #0ea5e9;
+      transform: scale(1.05);
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
+    footer {
+      margin-top: 50px;
+      opacity: 0.6;
+    }
+  </style>
 </head>
 
-<body style="font-family: Arial; text-align: center; padding: 40px;">
+<body>
 
-  <h1>♟️ Checker Game AI</h1>
+<div class="container">
+
+  <h1>♟️ Checkers AI in Python</h1>
 
   <p>
-    An AI-powered Checkers game built using <b>Minimax</b> and
-    <b>Alpha-Beta Pruning</b>.
+    This project demonstrates a powerful <b>Checkers AI</b> built using 
+    <b>Minimax</b> and <b>Alpha-Beta Pruning</b>.
   </p>
 
-  <h2>🚀 Features</h2>
-  <ul style="list-style: none;">
-    <li>✔ Smart AI opponent</li>
-    <li>✔ Minimax algorithm</li>
-    <li>✔ Alpha-Beta optimization</li>
-    <li>✔ Classic Checkers rules</li>
-  </ul>
-<h2>🧠 How the AI Works</h2>
-<p>
-The AI uses the Minimax algorithm with Alpha-Beta pruning to choose the best move.
-It evaluates possible moves and predicts the opponent's response.
-</p>
-  <h2>▶️ Run the Project</h2>
-  <p>Clone the repo and run:</p>
-  <pre>python main.py</pre>
+  <a class="btn" href="https://github.com/souror07/Checker-game-AI" target="_blank">
+    View Source Code
+  </a>
 
-  <h2>📂 GitHub Repository</h2>
-  <p>
-    <a href="https://github.com/souror07/Checker-game-AI" target="_blank">
-      View Source Code
-    </a>
-  </p>
+  <div class="card">
+    <h2>🚀 Features</h2>
+    <p>Smart AI opponent, optimized decision-making, and classic checkers rules.</p>
+  </div>
 
-  <h2>📸 Screenshot</h2>
-  <p><img src="screenshot.png" width="400"></p>
+  <div class="card">
+    <h2>🧠 How the AI Works</h2>
+    <p>
+      The AI evaluates all possible moves using the minimax algorithm and reduces
+      unnecessary calculations using alpha-beta pruning to choose the best move.
+    </p>
+  </div>
 
-  <hr>
+  <div class="card">
+    <h2>📘 About This Project</h2>
+    <p>
+      This project is a practical implementation of artificial intelligence in board games.
+      It shows how algorithms can simulate thinking and strategy.
+    </p>
+  </div>
 
-  <p>Made by souror07</p>
+  <div class="card">
+    <h2>▶️ Run the Project</h2>
+    <pre>python main.py</pre>
+  </div>
+
+  <div class="card">
+    <h2>📸 Screenshot</h2>
+    <img src="screenshot.png" alt="Checkers AI gameplay screenshot">
+  </div>
+
+  <footer>
+    Made by souror07
+  </footer>
+
+</div>
 
 </body>
 </html>
