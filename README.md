@@ -104,7 +104,7 @@ Checker Game/
 
 ## Screenshots
 
-You can add screenshots here later if you want to showcase the game interface.
+![Game Screenshot](screenshot.png)
 
 ---
 ## Future Improvements
