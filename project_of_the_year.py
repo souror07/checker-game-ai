@@ -488,7 +488,25 @@ class CheckersGUI:
         card = ttk.Frame(shell, style="Card.TFrame", padding=14)
         card.pack()
 
-        self.canvas = tk.Canvas(card, width=BOARD_SIZE * CELL_SIZE, height=BOARD_SIZE * CELL_SIZE, bg="#0F1724", highlightthickness=0, bd=0)
+        board_px = BOARD_SIZE * CELL_SIZE
+
+        self.canvas = tk.Canvas(
+    card,
+    width=board_px,
+    height=board_px,
+    bg="#0F1724",
+    highlightthickness=0
+)
+        board_px = BOARD_SIZE * CELL_SIZE
+
+        self.canvas = tk.Canvas(
+    card,
+    width=board_px,
+    height=board_px,
+    bg="#0F1724",
+    highlightthickness=0
+)
+
         self.canvas.pack()
         self.canvas.bind("<Button-1>", self.on_click)
 
@@ -547,6 +565,15 @@ class CheckersGUI:
     def _build_match_info(self, parent):
         info = ttk.Frame(parent, style="Card.TFrame")
         info.pack(fill="x", pady=(18, 0))
+        self.watermark = tk.Label(
+    parent,
+    text="© 2026 souror. All Rights Reserved.",
+    bg="#121A28",
+    fg="#FFD700",
+    font=("Segoe UI", 12, "bold")
+)
+
+        self.watermark.pack(side="bottom", pady=(15, 5))
 
         ttk.Label(info, text="Match Info", style="CardTitle.TLabel").pack(anchor="w", pady=(0, 8))
         ttk.Label(info, textvariable=self.turn_var, style="Info.TLabel").pack(anchor="w", pady=3)
