@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://souror07.github.io/Checker-game-AI/sitemap.xml
