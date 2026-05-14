@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 ## 👤 Author
 This project was developed and owned by **souror**.
 
