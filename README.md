@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![AI](https://img.shields.io/badge/AI-Minimax-green)
+![Status](https://img.shields.io/badge/Project-Complete-brightgreen)
 ## 👤 Author
 This project was developed and owned by **souror**.
 
@@ -14,8 +17,8 @@ I'm continuously learning and improving, and this project represents an importan
 ---
 
 # ♟️ CrownMind CzechPy
-
-A polished desktop **Checkers AI game** built in Python using `tkinter`.
+> A smart AI opponent that thinks ahead and plays strategically.
+A powerful Checkers AI built with Minimax and Alpha-Beta pruning in Python.
 
 This project features a clean graphical interface, intelligent AI with multiple difficulty levels, and a smooth gameplay experience designed for both beginners and advanced players.
 
