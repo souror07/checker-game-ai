@@ -190,6 +190,14 @@
     @media (max-width: 820px) {
       .card { grid-column: 1 / -1; }
     }
+ .btn-primary {
+    animation: glow 1.5s infinite alternate;
+  }
+
+  @keyframes glow {
+    from { box-shadow: 0 0 10px #38bdf8; }
+    to { box-shadow: 0 0 20px #60a5fa; }
+  }
   </style>
 </head>
 
