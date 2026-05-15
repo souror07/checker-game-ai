@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>CrownMind CzechPy | Checkers AI in Python</title>
-
   <meta name="description" content="CrownMind CzechPy is a Checkers AI project in Python using minimax and alpha-beta pruning." />
   <meta name="keywords" content="checkers AI, CrownMind CzechPy, minimax python, alpha beta pruning, game AI, board game AI" />
   <meta name="author" content="souror07" />
@@ -39,17 +38,11 @@
       --text: #e5e7eb;
       --muted: #cbd5e1;
       --accent: #38bdf8;
-      --accent2: #22c55e;
       --shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
     }
 
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
 
     body {
       margin: 0;
@@ -132,9 +125,7 @@
       backdrop-filter: blur(10px);
     }
 
-    .btn:hover {
-      transform: translateY(-2px);
-    }
+    .btn:hover { transform: translateY(-2px); }
 
     .grid {
       display: grid;
@@ -179,25 +170,7 @@
       line-height: 1.9;
     }
 
-    .full {
-      grid-column: 1 / -1;
-    }
-
-    .repo-box {
-      display: flex;
-      justify-content: space-between;
-      gap: 16px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-
-    .repo-box code {
-      font-family: inherit;
-      background: rgba(255, 255, 255, 0.08);
-      padding: 6px 10px;
-      border-radius: 10px;
-      color: #fff;
-    }
+    .full { grid-column: 1 / -1; }
 
     .shot {
       width: 100%;
@@ -215,9 +188,7 @@
     }
 
     @media (max-width: 820px) {
-      .card {
-        grid-column: 1 / -1;
-      }
+      .card { grid-column: 1 / -1; }
     }
   </style>
 </head>
@@ -233,12 +204,8 @@
       </p>
 
       <div class="actions">
-        <a class="btn btn-primary" href="https://github.com/souror07/Checker-game-AI" target="_blank" rel="noopener noreferrer">
-          View Source Code
-        </a>
-        <a class="btn btn-secondary" href="#about">
-          Explore Project
-        </a>
+        <a class="btn btn-primary" href="#about">Explore Project</a>
+        <a class="btn btn-secondary" href="#features">Features</a>
       </div>
     </section>
 
@@ -251,7 +218,7 @@
         </p>
       </article>
 
-      <article class="card">
+      <article class="card" id="features">
         <h2>Features</h2>
         <ul class="list">
           <li>Smart AI opponent</li>
@@ -271,20 +238,8 @@
 
       <article class="card">
         <h2>Run the Project</h2>
-        <p>
-          Clone the repository and run:
-        </p>
+        <p>Clone the repository and run:</p>
         <p><code>python main.py</code></p>
-      </article>
-
-      <article class="card full">
-        <h2>GitHub Repository</h2>
-        <div class="repo-box">
-          <p>Source: <code>github.com/souror07/Checker-game-AI</code></p>
-          <a class="btn btn-secondary" href="https://github.com/souror07/Checker-game-AI" target="_blank" rel="noopener noreferrer">
-            Open Repository
-          </a>
-        </div>
       </article>
 
       <article class="card full">
@@ -294,9 +249,7 @@
       </article>
     </section>
 
-    <div class="footer">
-      Made by souror07
-    </div>
+    <div class="footer">Made by souror07</div>
   </main>
 </body>
 </html>
