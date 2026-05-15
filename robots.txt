@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://souror07.github.io/CrownMind-CzechPy/sitemap.xml
+Sitemap: https://souror07.github.io/CrownMind-CzechPy/sitemap-index.xml
