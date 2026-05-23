@@ -399,7 +399,7 @@ def score_to_bar_value(score):
 class CheckersGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("Checkers AI")
+        self.root.title("CrownMind CzechPy")
         self.root.geometry("1320x860")
         self.root.minsize(1220, 780)
         self.root.configure(bg="#0B1220")
@@ -474,9 +474,8 @@ class CheckersGUI:
         row = ttk.Frame(header)
         row.pack(fill="x")
 
-        ttk.Label(row, text="Checkers AI", style="Header.TLabel").pack(side="left")
+        ttk.Label(row, text="CrownMind CzechPy", style="Header.TLabel").pack(side="left")
         tk.Label(row, text="STABLE BUILD", bg="#17324D", fg="#BFE3FF", font=("Segoe UI", 9, "bold"), padx=10, pady=4).pack(side="left", padx=(12, 0), pady=(5, 0))
-        ttk.Label(header, text="Correct winner detection • clearer mandatory captures • polished GUI", style="Sub.TLabel").pack(anchor="w", pady=(6, 0))
 
     def _build_board_area(self, parent):
         left = ttk.Frame(parent)
@@ -864,7 +863,7 @@ class CheckersGUI:
 
     def _finish_by_result(self, result):
         if result == "red":
-            self.end_game("You win! AI has no legal moves.")
+            self.end_game("You win!")
         elif result == "black":
             self.end_game("AI wins!")
         else:
